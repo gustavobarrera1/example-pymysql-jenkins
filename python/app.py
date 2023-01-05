@@ -5,7 +5,7 @@ connection = mysql.connector.connect(
     port = "3306",
     database = "db",
     user = "root",
-    password = "gustavobarrera"
+    password = "gustavo"
 )
 print("Base de datos conectada!")
 
