@@ -1,12 +1,14 @@
 version: '3.7'
 services:
   python-conn:
+    container_name: python
     build: ./python/
     command: sh -c "sleep 10s ; python 3 ./app.py"
     depends_on:
       - mysql
 
   mysql:
+    container_name: mysql
     build: ./mysql/
     restart: always
     environment:

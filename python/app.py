@@ -3,10 +3,9 @@ import mysql.connector
 connection = mysql.connector.connect(
     host = "mysql",
     port = "3306",
-    port = 3306,
     database = "db",
     user = "root",
-    password = "gustavo"
+    password = "gustavobarrera"
 )
 print("Base de datos conectada!")
 
