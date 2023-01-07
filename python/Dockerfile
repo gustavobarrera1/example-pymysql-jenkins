@@ -1,6 +1,6 @@
 FROM python:3.9-slim-bullseye
 
-RUN  python3 -m pip3 install -U pip 
+RUN  python3 -m pip install --upgrade pip
 
 COPY requirements.txt requirements.txt
 
