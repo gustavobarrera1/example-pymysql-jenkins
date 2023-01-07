@@ -1,5 +1,7 @@
 FROM python:3.9-slim-bullseye
 
+RUN  python3 -m pip3 install -U pip 
+
 COPY requirements.txt requirements.txt
 
 RUN pip3 install -r requirements.txt
