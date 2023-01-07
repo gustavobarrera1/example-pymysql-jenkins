@@ -1,6 +1,8 @@
 FROM python:3.9-slim-bullseye
 
-RUN python -m pip install mysql-connector-python
+COPY requirements.txt requirements.txt
+
+RUN pip install -r requirements.txt
 
 WORKDIR /usr/app/src
 
