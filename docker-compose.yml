@@ -15,7 +15,7 @@ services:
     volumes:
         - ./init.sql:/data/application/init.sql
     environment:
-        - MYSQL_DATABASE: 'consensus'
-        - MYSQL_ROOT_PASSWORD: 'gustavo'
+        - MYSQL_DATABASE=consensus
+        - MYSQL_ROOT_PASSWORD=gustavo
     ports:
       - '3306:3306'
