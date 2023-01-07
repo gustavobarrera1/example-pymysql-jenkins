@@ -1,4 +1,6 @@
-use db;
+CREATE DATABASE IF NOT EXISTS consensus;
+
+use consensus;
 
 CREATE TABLE Empleados(
     EmpleadosID INT NOT NULL AUTO_INCREMENT,
