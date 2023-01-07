@@ -10,4 +10,4 @@ CREATE TABLE Empleados(
 );
 
 INSERT INTO Empleados(Nombre,Edad)
-VALUES("Gustavo","21"), ("Victor","20")
+VALUES("Gustavo","21"), ("Victor","20");
